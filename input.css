@@ -18,6 +18,18 @@
     @apply max-w-6xl mx-auto text-center px-10;
 }
 
+.section-content{
+    @apply max-w-3xl mx-auto text-center text-grayishBlue;
+}
+
+.section-h5{
+    @apply mb-2 text-2xl font-bold text-darkGrayishBlue;
+}
+
+.section-item {
+    @apply flex flex-col items-center space-y-5;
+}
+
 body {
    background-image: url('../images/bg-header-desktop.png');
    background-repeat: no-repeat; 
@@ -28,4 +40,9 @@ body {
     body {
         background-image: url('../images/bg-header-mobile.png'); 
     }
+}
+
+.ficon:hover{
+    filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg) 
+    brightness(101%) contrast(94%)
 }
