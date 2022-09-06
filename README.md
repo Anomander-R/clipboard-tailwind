@@ -27,4 +27,6 @@ Download or copy from the github, then run `npm install`
   | 
   |_ [images](17 images)  
   
+## Deployment
 
+Link: https://mellifluous-tiramisu-35dc6d.netlify.app/
